@@ -47,7 +47,7 @@ const AboutPage = () => {
             </p>
             {/* BIOGRAPHY Quote */}
             <span className="italic">
-              'In the world of pixels, I craft stories with code'
+            &apos;In the world of pixels, I craft stories with code&apos;
             </span>
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
