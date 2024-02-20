@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import {motion} from 'framer-motion'
+import Link from "next/link";
 
 const Homepage = () => {
 
@@ -20,8 +21,8 @@ const Homepage = () => {
               Welcome to my digital canvas, where innovation and creativity converge. With a keen eye for aesthetics and a mastery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.
             </p>
             <div className="flex gap-4">
-              <button className="rounded-lg bg-black ring-1 ring-black text-white p-4">View My Work</button>
-              <button className="rounded-lg bg-transparent ring-1 ring-black text-black p-4">Contact Me</button>
+              <Link href={'/portfolio'} className="rounded-lg bg-black ring-1 ring-black text-white p-4">View My Work</Link>
+              <Link href={'/contact'} className="rounded-lg bg-transparent ring-1 ring-black text-black p-4">Contact Me</Link>
             </div>
         </div>
     </div>
