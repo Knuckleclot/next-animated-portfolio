@@ -7,9 +7,9 @@ import Link from "next/link";
 const Homepage = () => {
 
   return (
-    <motion.div className="h-full pb-10" initial={{y:'-200vh'}} animate={{y:"0%"}} transition={{duration:1}}>
+    <motion.div className="h-full" initial={{y:'-200vh'}} animate={{y:"0%"}} transition={{duration:1}}>
 
-    <div className="h-full flex lg:flex-row flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 gap-12">
+    <div className="h-full flex pb-20 lg:flex-row flex-col px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 gap-12">
       {/* IMAGE COMNTAINER */}
         <div className="h-1/2 relative lg:w-1/2 lg:h-full">
             <Image src={'/hero.png'} alt="hero image" fill className="object-contain"/>
